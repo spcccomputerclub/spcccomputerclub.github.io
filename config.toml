@@ -1,0 +1,6 @@
+[directories]
+articles = "content/markdowns/"
+notes = "content/notes/"
+
+[links]
+notes = "https://drive.google.com/embeddedfolderview?id=1L5lTFFb91PfsK7Y-Vo-hNAajlzjg2VAM#list"

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SPCC Computer Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header shadow bg-dark">
+        <nav class="navbar bg-dark monospace">
+            <div class="logo"><a href="/index.html">
+                    <h2 class="logo-text light-text">SPCC Computer Club</h2>
+                </a></div>
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="/articles" class="list-link light-text">Articles</a></li>
+                <li class="nav-list-item"><a href="/tags" class="list-link light-text">Tags</a></li>
+                <li class="nav-list-item"><a href="/notes" class="list-link light-text">Exclusive</a></li>
+                <li class="nav-list-item">
+                    <a class="light-text list-link" href="https://github.com/spcccomputerclub"><i
+                            class="fa-brands fa-github fa-lg"></i></a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="light-text list-link" href="https://instagram.com/spcccomputerclub"><i
+                            class="fa-brands fa-instagram fa-lg"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Site -->
+
+
+
+    <div class="container">
+        <main>
+            <div class="card light-text">
+                <div class="card-wrapper">
+                    <div class="card-title-container">
+                        <h1 class="light-text type card-title">SPCC Computer Club</h1>
+                    </div>
+                    <h2 class="light-text semibold">Official website of the SPCC Computer Club</h2>
+                    <div class="icon-list">
+                        <a class="icon-link" href="https://github.com/spcccomputerclub"><i
+                                class="fa-brands fa-github fa-xl"></i></a>
+                        <a class="icon-link" href="https://instagram.com/spcccomputerclub"><i
+                                class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                    <div class="card-quote">
+                        <div class="light-text">❝People who are doing things for fun do things the right way by
+                            themselves.❞</div>
+                        <div class="light-text right-align">— Linus Torvalds</div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="light-text subtitle" id="recent">Recent</h2>
+            <div class="article-list light-text">
+                <!-- Add more article items here -->
+                {{articles}}
+            </div>
+        </main>
+        <footer>
+            <div class="light-text-dim smol">
+                © 2024 SPCC Computer Club
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+</body>
+
+</html>
