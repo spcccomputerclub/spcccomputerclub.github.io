@@ -35,5 +35,4 @@ jobs:
           git push
       - name: Push gh-pages Subtree To Origin
         run: |
-          git fetch origin
-          git subtree push --prefix dist origin gh-pages
+          git push origin `git subtree split dist main`:gh-pages --force
