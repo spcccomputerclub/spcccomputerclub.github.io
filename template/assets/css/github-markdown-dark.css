@@ -5,9 +5,9 @@
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 0;
-    color: var(--light-dimmer);
+    color: #cbd5e1;
     font-family: "Geist";
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 2.0rem;
     word-wrap: break-word;
     scroll-behavior: auto !important;

@@ -1,11 +1,13 @@
-id = "0002"
+id = "0001"
 title = "Things you did not learn in CL lessons"
-date = 2024-11-12
+date = 2024-11-28
+author = "3D Isaac Cheung"
 tags = [
     "Scratch",
     "App Inventor",
     "Python",
-    "Computer Literacy",
+    "Programming",
+    "Tips and Tricks",
 ]
 draft = false
-thumbnail = "normalmouse.png"
+thumbnail = "logo.jpg"

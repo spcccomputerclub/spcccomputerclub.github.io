@@ -73,6 +73,8 @@ def calculate_ssd_lifespan(capacity_gb, tbw_rating):
 lifespan = calculate_ssd_lifespan(1000, 600)
 ```
 
+![test](/assets/img/logo.jpg)
+
 ---
 
 **Note:** Modern SSDs often include advanced features like:
