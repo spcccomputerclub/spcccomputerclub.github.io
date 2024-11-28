@@ -1,0 +1,36 @@
+# This workflow regenerate static site pages and run necesarry git commands
+
+name: Generate Pages
+
+on:
+  push:
+    branches:
+      - main
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5.3.0
+        with:
+          python-version: 3.11
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run Page Geration Script
+        run: |
+          cd scripts
+          python generate_pages.py
+          cd ..
+      - name: Set Up Git
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+      - name: Push To Origin
+        run: |
+          git add .
+          git commit -m "[Auto] Generate Static Site Pages"
+          git push
+          git subtree push --prefix dist origin gh-pages
