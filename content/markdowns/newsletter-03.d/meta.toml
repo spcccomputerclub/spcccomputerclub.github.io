@@ -1,0 +1,12 @@
+id = "0003"
+title = "Guide to basic computer components"
+date = 2024-11-26
+author = "2B Ethan Mak"
+tags = [
+    "Technology Guide",
+    "Computer Hardware",
+    "Data Storage",
+    "Gaming"
+]
+draft = false
+thumbnail = "logo.jpg"
