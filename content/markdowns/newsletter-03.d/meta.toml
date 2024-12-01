@@ -1,5 +1,5 @@
 id = "0004"
-title = "Guide to basic computer components"
+title = "Guide to Basic Computer Components"
 date = 2024-11-26
 author = "2B Ethan Mak"
 tags = [
@@ -9,4 +9,4 @@ tags = [
     "Gaming"
 ]
 draft = false
-thumbnail = "logo.jpg"
+thumbnail = "computercomponents.png"
