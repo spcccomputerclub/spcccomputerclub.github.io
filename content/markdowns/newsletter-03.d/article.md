@@ -6,7 +6,7 @@ Everyday, we game, watch videos and even revise on our PCs and computers, from p
 
 ### What are the main components for computers? 
 
-![Overview](hardwarepic1.jpg)
+![Overview](/assets/img/0004/hardwarepic1.jpg)
 
 In simple words, computer hardware is everything in a computer that is physical. It is the body of your computer in which all the magic enters. Following are the major participants: 
 
