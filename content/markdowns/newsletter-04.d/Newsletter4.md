@@ -1,6 +1,3 @@
-### *Computer Club Newsletter - Article 04 by 3D Isaac Cheung*
-# __Runtime Complexities in Coding__
-
 ### Speedrunning in coding
 To the average student who may know little about coding, a Computer Literacy assignment may already pose an exciting challenge, not to mention questions or tasks that are explicitly designed to hamper with the minds of even seasoned programmers. Yet would it be surprising if you were told that even these problems serve as toys or competitions to the most dedicated? That’s right, they’re battling it out for the fastest runtime – and one major factor of this benchmark is __runtime complexity__. 
 
