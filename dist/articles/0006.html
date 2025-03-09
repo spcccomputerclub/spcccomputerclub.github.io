@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SPCC Computer Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/article-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/github-markdown-dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header shadow bg-dark">
+        <nav class="navbar bg-dark monospace">
+            <div class="logo"><a href="/index.html">
+                    <h2 class="logo-text light-text">SPCC Computer Club</h2>
+                </a></div>
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="/articles" class="list-link light-text">Articles</a></li>
+                <li class="nav-list-item"><a href="/tags" class="list-link light-text">Tags</a></li>
+                <li class="nav-list-item"><a href="/notes" class="list-link light-text">Exclusive</a></li>
+                <li class="nav-list-item">
+                    <a class="light-text list-link" href="https://github.com/spcccomputerclub"><i
+                            class="fa-brands fa-github fa-lg"></i></a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="light-text list-link" href="https://instagram.com/spcccomputerclub"><i
+                            class="fa-brands fa-instagram fa-lg"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Site -->
+
+    <div class="container">
+        <main>
+            <div class="head-image">
+                <img src="/assets/img/bigo2.jpg" alt="">
+            </div>
+            <article class="main-article light-text">
+                <div class="article-head">
+                    <h1 class="light-text article-head-title" id="tags">Runtime Complexities in Coding</h1>
+                    <div class="monospace article-meta">
+                        <span>2025-02-28</span> &bull;
+                        <span>562 words</span> &bull;
+                        <span>3 minutes</span>
+                        <span>Author: 3D Isaac Cheung</span>
+                    </div>
+                    <div class="article-tags">
+                        <span onclick="window.open('/tags/Technology Guide.html')">Technology Guide</span><span onclick="window.open('/tags/Coding.html')">Coding</span><span onclick="window.open('/tags/BigO.html')">BigO</span><span onclick="window.open('/tags/Runtime Complexities.html')">Runtime Complexities</span>
+                    </div>
+
+                </div>
+                <div class="markdown-body"><h3>Speedrunning in coding</h3>
+<p>To the average student who may know little about coding, a Computer Literacy assignment may already pose an exciting challenge, not to mention questions or tasks that are explicitly designed to hamper with the minds of even seasoned programmers. Yet would it be surprising if you were told that even these problems serve as toys or competitions to the most dedicated? That’s right, they’re battling it out for the fastest runtime – and one major factor of this benchmark is <strong>runtime complexity</strong>.</p>
+<h2><strong>The Big O Notation</strong></h2>
+<h3>Introduction</h3>
+<p><em>Runtime complexity</em> is a way to measure how an algorithm’s time grows as the data size increases. The <em>Big O Notation</em> is essentially the most recognised way to classify runtime complexity. It usually appears as a Capital letter “O” followed by some expression involving lowercase <em>n</em> (roughly representing input size). Some examples include <em>O(1), O(n), O(n²)</em> etc.</p>
+<h3>Explaining Big O</h3>
+<p>Imagine you’re running a lemonade stand, and Big O is like a way to predict how much time it’ll take you to serve customers as more people show up. It’s not about exact minutes or seconds—it’s about the <em>pattern</em> of how your workload grows.</p>
+<p>Here’s how it works, super simple:</p>
+<p><img src="/assets/img/0006/Big%20O%201.jpg" alt="Big O 1" /></p>
+<ul>
+<li><p><strong>O(1) - Constant Time</strong>: Picture this: You’ve got a megaphone. No matter how many customers line up—10 or 1,000—you just yell, “Lemonade’s ready!” once, and everyone hears. Takes the same effort every time. That’s <em>O(1)</em>—the job doesn’t get harder as the crowd grows.</p>
+</li>
+<li><p><strong>O(n) - Linear Time</strong>: Now imagine you’re handing out cups one by one. If 5 people show up, you hand out 5 cups. If 50 show up, it’s 50 cups. The more customers (let’s call that number n), the more work you do—twice as many people, twice the time. That’s <em>O(n)</em>—it grows steadily with the crowd.</p>
+</li>
+<li><p><strong>O(n²) - Quadratic Time</strong>: Here’s a tough one: Say you’re super friendly and insist on shaking hands with every customer and letting them shake hands with each other. For 3 people, it’s a few handshakes. For 10, it’s a ton—everyone’s shaking hands with everyone! The work explodes as more people join. That’s <em>O(n²)</em>—the effort grows way faster than the line itself.</p>
+</li>
+<li><p><strong>O(n log n) - Linearithmic Time</strong>: This one’s trickier, but think of it like organizing your customers into groups super efficiently. You split them in half, serve each half, split again, and so on—like a speedy sorting trick. It’s more work than O(n), but way less than O(n²). It’s a middle ground—grows, but not crazily.</p>
+</li>
+</ul>
+<h3>The Big Picture</h3>
+<p>Big O isn’t about exact timing (like “this takes 5 seconds”). It’s about how your task scales. Small crowd? No big deal. Huge crowd? Some methods (like <em>O(1)</em>) stay easy, while others (like <em>O(n²)</em>) turn into a nightmare. Programmers use it to pick the smartest way to handle big jobs—like serving lemonade to a million thirsty folks without losing their minds!</p>
+<h2>Conclusion</h2>
+<p>While these unique notations may not seem as relevant and common in our daily lives outside computer science, they are actually useful tools to evaluate a programs efficiency, and how different methods and functions can be used to enhance run speed even further; In big computations such as AI training, every second counts. So while we probably shouldn’t try expressing our speed of fleeing after the bell rings through runtime complexity (it’d probably be <em>O(0)</em>), perhaps someday more advancements will be made due to this clever mechanism!</p>
+<p><img src="/assets/img/0006/BigO5.png" alt="Big O 5" /></p>
+</div>
+            </article>
+            <footer>
+                <div class="light-text-dim smol">
+                    © 2024 SPCC Computer Club
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script type="module" src="/assets/js/highlight.js"></script>
+</body>
+
+</html>
