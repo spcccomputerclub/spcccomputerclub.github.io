@@ -11,7 +11,7 @@ Imagine you’re running a lemonade stand, and Big O is like a way to predict ho
 
 Here’s how it works, super simple: 
 
- ![Big O 1](/assets/img/0006/Big%20O%201.jpg)
+ ![Big O 1](/assets/img/0006/bigo01.jpg)
 
 - __O(1) - Constant Time__: Picture this: You’ve got a megaphone. No matter how many customers line up—10 or 1,000—you just yell, “Lemonade’s ready!” once, and everyone hears. Takes the same effort every time. That’s *O(1)*—the job doesn’t get harder as the crowd grows. 
 
