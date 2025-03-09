@@ -11,7 +11,7 @@ Imagine you’re running a lemonade stand, and Big O is like a way to predict ho
 
 Here’s how it works, super simple: 
 
- ![Big O 1](Big%20O%201.jpg)
+ ![Big O 1](/assets/img/0005/Big%20O%201.jpg)
 
 - __O(1) - Constant Time__: Picture this: You’ve got a megaphone. No matter how many customers line up—10 or 1,000—you just yell, “Lemonade’s ready!” once, and everyone hears. Takes the same effort every time. That’s *O(1)*—the job doesn’t get harder as the crowd grows. 
 
@@ -29,4 +29,4 @@ Big O isn’t about exact timing (like “this takes 5 seconds”). It’s about
 
 While these unique notations may not seem as relevant and common in our daily lives outside computer science, they are actually useful tools to evaluate a programs efficiency, and how different methods and functions can be used to enhance run speed even further; In big computations such as AI training, every second counts. So while we probably shouldn’t try expressing our speed of fleeing after the bell rings through runtime complexity (it’d probably be *O(0)*), perhaps someday more advancements will be made due to this clever mechanism! 
 
-![Big O 5](BigO5.png)
+![Big O 5](/assets/img/0005/BigO5.png)
