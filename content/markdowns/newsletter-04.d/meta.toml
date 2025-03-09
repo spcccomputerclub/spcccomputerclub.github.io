@@ -1,0 +1,12 @@
+id = "0005"
+title = "Runtime Complexities in Coding"
+date = 2025-02-28
+author = "3D Isaac Cheung"
+tags = [
+    "Technology Guide",
+    "Coding",
+    "BigO",
+    "Runtime Complexities"
+]
+draft = false
+thumbnail = "bigo2.jpg"
