@@ -6,7 +6,7 @@ Gaming has come a long way since the days of Pong and Space Invaders. From their
 
 ### The Early Days: Pixels and Arcades
 Throughout the 70s and 80s, gameplay was all about simplicity. Simple 2D graphics and plain gameplay were employed in Pong and Pac-Man. These games were easy to learn and play, and therefore became incredibly popular in arcades and early home consoles like the Atari 2600. Back then, the term "graphics card" did not even exist—games were powered by basic hardware that could only render a handful of colors and shapes.
-![pingpong](ataribreakout.png)
+![pingpong](/assets/img/0007/ataribreakout.png)
 ### The Rise of 3D Graphics
 The 1990s marked a turning point in gaming with the introduction of 3D graphics. Consoles like the Sony PlayStation and Nintendo 64 brought games like Super Mario 64 and Final Fantasy VII to life, offering players a new level of immersion. This era also saw the rise of GPUs, specialized hardware designed to handle complex visuals. GPUs allowed developers to create more detailed environments, realistic characters, and dynamic lighting effects, paving the way for modern gaming.
 
@@ -15,7 +15,7 @@ The late 1990s and early 2000s brought another major shift: the rise of online g
 
 ### The Modern Era: High-Definition and Beyond
 Today, gaming is more advanced than ever. High-definition graphics, 4K resolutions, and ray tracing technology have made games visually stunning. Titles like Retro Exodus and Red Dead Redemption 2 are praised for their cinematic quality, jaw-dropping visual fidelity with lifelike characters and breathtaking landscapes. Meanwhile, VR, with Beat Saber as an example, and AR technology will, or have taken the immersive experiences to the next level, allowing players to step inside their favorite games and interact with virtual worlds in ways that were once unimaginable.
-![graphics](graphicsingaming.jpeg)
+![graphics](/assets/img/0007/graphicsingaming.jpeg)
 ### The Future of Gaming:
 So, what’s next for gaming? The future looks incredibly exciting. Technologies like cloud gaming, like Google Stadia and Xbox Cloud Gaming are making it possible to play high-quality games on any device, without the need for expensive hardware. Meanwhile, advancements in AI are creating smarter, more realistic NPCsand dynamic game worlds that adapt to player behavior. And let’s not forget the potential of quantum computing, which could revolutionize game development and performance in ways we can’t yet imagine.
 
