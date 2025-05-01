@@ -1,5 +1,3 @@
-### *Computer Club Newsletter - Article 05 by 2B Ethan Mak*
-
 ### Introduction
 Gaming has come a long way since the days of Pong and Space Invaders. From their pixelated origins on clunky old arcade machines, gaming has become rich, realistic experiences that are more and more indistinguishable from reality itself. League of Legends and Cyberpunk 2077 are typical representations of the world today, with gaming exposing the breathtaking abilities of modern technology. But how did the world get to this point? Let us take a tour of gaming history and notice how technology is transforming the mode of playing.
 
