@@ -1,0 +1,12 @@
+id = "0008"
+title = "Understanding Quantum Computing: The Future of Technology"
+date = 2025-03-16
+author = "3A Brandon Kwok"
+tags = [
+    "Technology Guide",
+    "Computing",
+    "Quantum Computing",
+    "Runtime Complexities"
+]
+draft = false
+thumbnail = "quantumcomputing.jpg"
