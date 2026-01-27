@@ -6,12 +6,11 @@ Why the crazy price hikes? The global semiconductor supply chain is a mess. Maki
 
 <img src="/assets/img/gaming_pc_2.png" />
 <div>128 GB High-End DDR5 RAM sticks
-But here’s the real kicker—AI and data centers. Companies like Amazon, Meta, Nvidia, and OpenAI are buying up RAM in bulk for their servers and training massive AI models. They use way more memory than any gamer ever will, and they’re grabbing most of the supply before it ever hits store shelves. That pushes prices even higher for everyone else. In some cases, RAM costs have tripled.
+<div>But here’s the real kicker—AI and data centers. Companies like Amazon, Meta, Nvidia, and OpenAI are buying up RAM in bulk for their servers and training massive AI models. They use way more memory than any gamer ever will, and they’re grabbing most of the supply before it ever hits store shelves. That pushes prices even higher for everyone else. In some cases, RAM costs have tripled.
 
 <img src="/assets/img/gaming_pc_3.png" />
 <div>Massive AI datacentres
-
-Even older RAM isn’t safe. DDR3, a 10 year old RAM kit used to be dirt cheap—8GB for $25. But since nobody really makes it anymore, the leftover sticks are now rare and weirdly expensive. The same 8GB can go for $60, sometimes even more. Some old DDR3 and early DDR4 kits are so scarce, they cost more than the latest DDR4 or DDR5. It’s wild—what used to be “budget” hardware is now collector’s-item pricey.
+<div>Even older RAM isn’t safe. DDR3, a 10 year old RAM kit used to be dirt cheap—8GB for $25. But since nobody really makes it anymore, the leftover sticks are now rare and weirdly expensive. The same 8GB can go for $60, sometimes even more. Some old DDR3 and early DDR4 kits are so scarce, they cost more than the latest DDR4 or DDR5. It’s wild—what used to be “budget” hardware is now collector’s-item pricey.
 
 So, building or upgrading a gaming PC isn’t dead, but it’s definitely gotten a lot more expensive, no matter if you’re chasing the latest tech or just trying to revive an old system. For a lot of gamers, the question is starting to shift from “What can I build?” to “Can I even afford to build at all?” That’s a tough spot for a hobby that’s always been about freedom and creativity.
 
