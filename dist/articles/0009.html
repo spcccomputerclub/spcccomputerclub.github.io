@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/assets/css/style.css" rel="stylesheet">
-    <link href="/assets/css/articles.css" rel="stylesheet">
+    <link href="/assets/css/article-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/github-markdown-dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,7 +24,6 @@
                 <li class="nav-list-item"><a href="/articles" class="list-link light-text">Articles</a></li>
                 <li class="nav-list-item"><a href="/tags" class="list-link light-text">Tags</a></li>
                 <li class="nav-list-item"><a href="/notes" class="list-link light-text">Exclusive</a></li>
-
                 <li class="nav-list-item">
                     <a class="light-text list-link" href="https://github.com/spcccomputerclub"><i
                             class="fa-brands fa-github fa-lg"></i></a>
@@ -37,50 +37,27 @@
     </header>
     <!-- Main Site -->
 
-
-
     <div class="container">
         <main>
-            <h1 class="light-text subtitle" id="all-articles">Articles tagged with 'Computing'</h1>
-
-            <div class="article-list light-text">
-                
-        <div class="article-card">
-            <div class="article-thumbnail">
-                <img src="/assets/img/" alt="Article Thumbnail">
+            <div class="head-image">
+                <img src="/assets/img/" alt="">
             </div>
-            <div class="article-content">
-                <a href="/articles/0009.html"><h2 class="article-title">Is Building a Gaming PC Still Worth It?</h2></a>
-                <div class="article-meta-row">
-                    <div class="article-meta">
+            <article class="main-article light-text">
+                <div class="article-head">
+                    <h1 class="light-text article-head-title" id="tags">Is Building a Gaming PC Still Worth It?</h1>
+                    <div class="monospace article-meta">
                         <span>2026-01-27</span> &bull;
                         <span>0 words</span> &bull;
-                        <span>0 mins</span>
+                        <span>0 minutes</span>
+                        <span>Author: 3G Hugo Leung</span>
                     </div>
-                </div>
-                <div class="article-tags"><span onclick="window.open('/tags/Technology Guide.html')">Technology Guide</span><span onclick="window.open('/tags/Computing.html')">Computing</span><span onclick="window.open('/tags/PC.html')">PC</span></div>
-            </div>
-        </div>
-        
-        <div class="article-card">
-            <div class="article-thumbnail">
-                <img src="/assets/img/quantumcomputing.jpg" alt="Article Thumbnail">
-            </div>
-            <div class="article-content">
-                <a href="/articles/0008.html"><h2 class="article-title">Understanding Quantum Computing: The Future of Technology</h2></a>
-                <div class="article-meta-row">
-                    <div class="article-meta">
-                        <span>2025-03-16</span> &bull;
-                        <span>537 words</span> &bull;
-                        <span>3 mins</span>
+                    <div class="article-tags">
+                        <span onclick="window.open('/tags/Technology Guide.html')">Technology Guide</span><span onclick="window.open('/tags/Computing.html')">Computing</span><span onclick="window.open('/tags/PC.html')">PC</span>
                     </div>
+
                 </div>
-                <div class="article-tags"><span onclick="window.open('/tags/Technology Guide.html')">Technology Guide</span><span onclick="window.open('/tags/Computing.html')">Computing</span><span onclick="window.open('/tags/Quantum Computing.html')">Quantum Computing</span><span onclick="window.open('/tags/Runtime Complexities.html')">Runtime Complexities</span></div>
-            </div>
-        </div>
-        
-                <!-- Add more article items here -->
-            </div>
+                <div class="markdown-body"></div>
+            </article>
             <footer>
                 <div class="light-text-dim smol">
                     © 2024 SPCC Computer Club
@@ -88,6 +65,7 @@
             </footer>
         </main>
     </div>
+    <script type="module" src="/assets/js/highlight.js"></script>
 </body>
 
 </html>
