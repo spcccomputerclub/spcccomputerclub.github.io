@@ -1,0 +1,43 @@
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+
+.tag-item {
+    display: flex;
+    flex-direction: row;
+    flex-basis: calc(25%);
+    margin: .8em auto 1.6em 0;
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+.tag-item>* {
+    margin-right: 1rem;
+}
+
+.tag-name:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
+}
+
+@media (max-width: 767px) {
+    .article-item {
+        flex-direction: column;
+    }
+
+    .article-thumbnail {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .article-content {
+        flex-basis: 100%;
+    }
+}
+
+footer {
+    padding-bottom: 1em;
+}
