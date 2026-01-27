@@ -5,11 +5,11 @@ Let’s talk about RAM for a second. It’s the hardware that keeps your compute
 Why the crazy price hikes? The global semiconductor supply chain is a mess. Making RAM isn't simple, it takes rare materials, high-tech factories, and everything has to go just right. One hiccup, whether it’s a political conflict, a flood, or a factory fire, and supply dries up. When that happens, prices jump. Take a 16GB DDR4 kit: just a few years ago, it cost about $40. Now? It's $130. And DDR5 kits? Those which were just about $170 a few years ago can easily run $250 or more, especially the fast ones.
 
 <img src="/assets/img/gaming_pc_2.png" />
-128 GB High-End DDR5 RAM sticks
+<div>128 GB High-End DDR5 RAM sticks
 But here’s the real kicker—AI and data centers. Companies like Amazon, Meta, Nvidia, and OpenAI are buying up RAM in bulk for their servers and training massive AI models. They use way more memory than any gamer ever will, and they’re grabbing most of the supply before it ever hits store shelves. That pushes prices even higher for everyone else. In some cases, RAM costs have tripled.
 
 <img src="/assets/img/gaming_pc_3.png" />
-Massive AI datacentres
+<div>Massive AI datacentres
 
 Even older RAM isn’t safe. DDR3, a 10 year old RAM kit used to be dirt cheap—8GB for $25. But since nobody really makes it anymore, the leftover sticks are now rare and weirdly expensive. The same 8GB can go for $60, sometimes even more. Some old DDR3 and early DDR4 kits are so scarce, they cost more than the latest DDR4 or DDR5. It’s wild—what used to be “budget” hardware is now collector’s-item pricey.
 
